@@ -60,7 +60,7 @@ logmessage("This is a void function example.");
 // }
 // throwerror();
 
-//TODO Arrow function in typesript
+//TODO Arrow function in typesript  2:15 minutes mamun
 // function newAdd(a: number, b: number): number {
 //   return a + b;
 // }
@@ -69,3 +69,8 @@ const newAdd = (x: number, y: number): number => {
   return x + y;
 };
 console.log(newAdd(5, 8));
+
+const multiply = (m: number, n: number): number => {
+  return m * n;
+};
+console.log("The Multiply Result is(using arrow function):", multiply(9, 8));
