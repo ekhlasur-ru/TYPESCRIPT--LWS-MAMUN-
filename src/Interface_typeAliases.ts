@@ -24,7 +24,6 @@ interface Person {
 interface Person {
   age: number;
 }
-
 const margePersone: Person = {
   name: "Ehalsur Rahman",
   age: 26,
