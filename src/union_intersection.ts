@@ -28,6 +28,18 @@ const admin: AdminUser = {
   isAdmin: true,
 };
 
-// TODO literal types in typescript
+// TODO literal types in typescript (useCade ::: button define & light Dark mode define)";
+type Action = "start" | "pause" | "submit";
+function handlEAction(action: Action) {
+  console.log(`Action: ${action}`);
+}
+handlEAction("start");
+handlEAction("pause");
+handlEAction("submit");
 
-
+type ThemeMode = "light" | "dark";
+function setTheme(mode: ThemeMode) {
+  console.log(`Theme is changed to: ${mode}`);
+}
+setTheme("light");
+setTheme("dark");
